@@ -4,9 +4,9 @@ const replace = require("replace");
 const createConnection = async () => {
     return await mysql.createConnection({
         host: 'localhost',
-        user: 'admin1',
-        password: '1nimdalqs2021!', 
-        database: 'wordpress', 
+        user: 'wa',
+        password: 'password!', 
+        database: 'wa', 
     }) 
 } 
 const getReply = async (keyword2) => {          
